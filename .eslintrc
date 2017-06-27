@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-use-before-define": [2, "nofunc"]
+  }
+}  
+
+
+// {
+//     "extends": "airbnb",
+//     "rules": {
+//         "comma-dangle": ["error", "never"]
+//     }
+// }
